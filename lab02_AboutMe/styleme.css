@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+html {
+	/* 	background-color: #f1f1f1; */
+	background-color: white;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	-webkit-background-size: cover;
+	/* 	background-image: url("images/silverware.jpg"); */
+	/*   background-repeat: repeat; */
+}
+* {box-sizing: border-box;}
+body {
+	padding: 1px 15px 5px 15px;
+	margin: auto;
+	width: 824px;
+	min-height: 754px;
+	/* 	height: 768px; */
+	background-color: #595647;
+	color: #fff9ed;
+	font-size: 11pt;
+	font-family: Georgia, Garamond, serif;
+}
+
+.header {
+	color: #A4A400;
+	background-color: #F0F0F0;
+	font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+	text-align: left;
+	font-size: 18pt;
+	text-decoration: underline;
+	/* 	padding: 5px 1px 5px 1px; */
+}
+
+section {
+	border-bottom: 1px #f1f1f1 solid;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+section h1 {
+	color: #a1c1f9;
+	font-size: 44px;
+}
+
+article {
+	
+}
+
+article h4 {
+	color: #a1c1f9;
+}
+
+a:link, a:visited {
+	color: #e95563;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+/* 	color: #4caf50; */
+	text-decoration: underline;
+}
+
+p:first-child:first-letter {
+  color: #903;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+.lisDetails{
+	list-style-type:none;
+}
+ol{}
+ol .olistReverseOrd{ 
+	margin-bottom: 10px;
+}
+.highlight {
+	color: #ebe87e;
+	font-weight: bold;
+}
+.normal{
+	color: #fff9ed;
+	font-size: 11pt;
+	font-family: Georgia, Garamond, serif;
+	font-weight: normal;
+}
+.displayMood{
+	display: flex;
+	width: 75%; 
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+figure{
+/* 	width: 25%; */
+	margin-right: 20px; 
+/* 	display: flex; */
+}
+figcaption { 
+/*   display: inline; */
+}
+
+img{
+	width: 85px;
+	height: 105px;
+}

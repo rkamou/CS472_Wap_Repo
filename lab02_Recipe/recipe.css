@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+html {
+	/* 	background-color: #f1f1f1; */
+	background-color: white;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-image: url("images/silverware.jpg");
+  background-repeat: repeat;
+}
+
+body {
+	/* 	padding: 1px 15px 0px 15px; */
+	margin: auto;
+	width: 1024px;
+/* 	height: 768px; */
+	background-color: white;
+	color: #404040;
+	font-size: 11pt;
+	font-family: Georgia, Garamond, serif;
+	margin-top: 0px;
+}
+
+.header {
+	color: #A4A400;
+	background-color: #F0F0F0;
+	font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+	text-align: left;
+	font-size: 18pt;
+	text-decoration: underline;
+	margin-bottom: 10px;
+	font-weight: normal;
+		padding: 5px 1px 5px 1px;
+}
+
+#header {
+	text-align: center;
+	font-size: 22pt;
+	font-weight: bold;
+	margin-top: 0px;
+}
+
+header{
+	
+}
+
+a {
+	color: #A4A400;
+}
+
+#pie_pic {
+	width: 204px;
+	height: 128px;
+}
+abbr{
+	text-decoration: underline;
+}
+.copyright{
+	font-family: monospace;
+}
+.comment{
+	background-color: #ffffa8;
+	margin-bottom: 10px;
+	font-style: italic;
+}
+section {
+	border-bottom: 1px #F0F0F0 solid;
+	padding: 3px 0px 3px 0px;
+	margin-bottom: 10px;
+}
+ .overline{ 
+	text-decoration: line-through;
+}
+footer {
+	 
+/* 	float:right; */
+	text-align: right;
+}
+p{
+	padding: 0px;
+	margin: 0px;
+}

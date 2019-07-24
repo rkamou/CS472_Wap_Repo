@@ -1,0 +1,13 @@
+The lecture was an overview on subjects that I already learned.  
+Also, it was a kick on my memories(brain) on a lot of knowledges 
+that was already fuzzy or almost forgotten.
+I am glad we came on HTML5's tags (article, section, header, footer,
+nav, figure, main, detail, aside, ...),since I never really took a 
+time to study their semantics and the meaning underneath.
+To sum up, this course is about to be very interesting. 
+
+Lab0 is about making a very simple web personal page.
+It looks easy, but when you are just comming back on when programming
+from a long break, it can be surprisingly complicated. 
+After reading thouroughly the course materials and Internet, it became 
+a bit easier to toy with the tags and I made up my web page.
