@@ -90,12 +90,20 @@ ol .olistReverseOrd{
 	font-family: Georgia, Garamond, serif;
 	font-weight: normal;
 }
+img{
+	width: 25px;
+	height: 45px;
+}
 .displayMood{
 	display: flex;
 	width: 75%; 
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+}
+.displayMood img {
+	width: 85px;
+	height: 105px;	
 }
 figure{
 /* 	width: 25%; */
@@ -106,7 +114,3 @@ figcaption {
 /*   display: inline; */
 }
 
-img{
-	width: 85px;
-	height: 105px;
-}
