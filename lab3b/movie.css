@@ -84,7 +84,7 @@ dt{
 	position: relative;
 	width: 100%;
 	font-size: 48pt;
-	font-color: red;
+	color: red;
 	text-align: left;
 	vertical-align: middle;
 	z-index: -1;
