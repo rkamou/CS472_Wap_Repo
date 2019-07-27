@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- saved from url=(0074)http://mumstudents.org/cs472/2018-09-RS/Homework/2/resources/skeleton.html -->
+<html lang="en">
+
+<head>
+	<script src="myscripts.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive</title>
+	<link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body class="grid-container">
+	<div class="item1">Lab Assignment 5 : Application of JavaScript</div>
+	 
+	<div class="item2"></div>
+	<div class="item4">
+		<ol start="1"><form>
+			<li>
+				<input type="number" id="num1" name="num1"  placeholder="number Q : 2, 3, 8, 9"/>	
+				<input type="number" id="num2" name="num2"  placeholder="number Q : 2, 3"/>
+				<input type="number" id="num3" name="num3"  placeholder="number Q : 3"/>
+				<i> (Number fields)</i>
+				<br/>
+				<input type="text" id="text" name="text" size="5" placeholder="Char or String, Q : 5, 6, 7, 8, 9"/><i> (Char or String field)</i><br><i class="attention">Q stands for question, example Q : 3 means that the field is used to enter value needed for question 3</i>
+			</li>
+			<li>
+				<a  onClick='alert("Max : "+max(document.getElementById("num1").value, document.getElementById("num2").value));' 
+				 value="Max 1&amp;2">
+					Max 1&amp;2</a> <i>takes two numbers as arguments and returns the largest of them</i>
+			</li>
+			<li>
+				<a 
+					onClick='alert("Max : "+maxOfThree(document.getElementById("num1").value, document.getElementById("num2").value, document.getElementById("num3").value));'  id="" type="submit" value="maxOfThree 1 &amp; 2 &amp; 3">maxOfThree 1 &amp; 2 &amp; 3</a> <i>takes three numbers as arguments and returns the largest of them</i>
+			</li>
+			
+			<li>
+				<a 
+					onClick='alert("Vowel : "+isVowel(document.getElementById("text").value));'  id=""  type="submit" 
+					value="isVowel">isVowel 1 &amp; 2 &amp; 3</a> <i> takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise</i>
+			</li>
+			<li>
+				<a 
+					onClick='alert("Sum : "+sum(document.getElementById("text").value));'  id="" type="submit" 
+					value="isVowel">Sum of Array items</a>
+				<a 
+					onClick='alert("Multiply : "+multiply(document.getElementById("text").value));'  id=""  type="submit" 
+					value="isVowel">multiply of Array items</a>	
+					 <i> take a sequence of number with comma(,) as separator </i>
+			</li>
+			<li>
+				<a 
+					onClick='alert("Reverse : "+reverse(document.getElementById("text").value));'  id=""  type="submit" 
+					value="isVowel">Reverse a String</a> <i> computes the reversal of a String</i>
+			</li>
+			<li>
+				<a 
+					onClick='alert("Length of the longest : "+findLongestWord(document.getElementById("text").value));'  id="" type="submit" 
+					value="isVowel">findLongestWord of Array</a> <i> Takes an array of words and returns the length of the longest one.</i>
+			</li>
+			<li>
+				<a 
+					onClick='alert("filterLongWords : "+filterLongWords(document.getElementById("text").value,document.getElementById("num1").value));'  id="" 
+
+					value="isVowel">filterLongWords of Array</a> <i> take a sequence of string with comma(,) as separator, and size for the filter</i>
+			</li>
+			<li>
+				<a onClick='alert("multiplyArrayBy : "+multiplyArrayBy(document.getElementById("text").value,document.getElementById("num1").value));'  id="" 
+					value="isVowel">multiply Array By Value</a> <i> take a sequence of number with comma(,) as separator, and them all by a specific value</i> 
+			</li>
+
+		</form></ol>
+	</div>
+	<div class="item3"></div>
+	<div class="item6">...</div>
+	<script type="text/javascript">
+		
+	</script>
+</body>
+
+</html>
