@@ -1,24 +1,27 @@
-/*window.onload = function () {
+window.onload = function () {
     const sumL = document.getElementById("sumL");
-    sumL.onclick = okayClick;
+    sumL.onclick = sum;
 
-    const okButton2 = document.getElementById("ok2");
-    okButton2.onclick = function () {
-        alert("OK2 clicked");
-    };
+    const mulL = document.getElementById("mulL");
+    mulL.onclick = multiply;
 
-    document.getElementById("ok3").onclick = function () {
-        alert("OK3 clicked");
-    };
+    const rev =  document.getElementById("reverse");
+    rev.onclick = reverse;
 
-    function okayClick() {
-        alert("OK1 clicked");
-    }
-};*/
+	const findL =  document.getElementById("findLongestWord");
+    findL.onclick = findLongestWord;    
+
+
+	const filt =  document.getElementById("filterLongWords");
+    filt.onclick = filterLongWords;
+
+    const multA =  document.getElementById("multiplyArrayBy");
+    multA.onclick = multiplyArrayBy; 
+};
  
-function sum(t) {
+function sum() {
 	console.log("Call function : sum");
-
+	t = document.getElementById("text").value
 	var a =  t.split(",").map(Number); // split the string and convert into and array of number
 
 	console.log("Value of the Array : "+a); 
@@ -30,9 +33,9 @@ function sum(t) {
 	}else return "error";
 } 
 
-function multiply(t){
+function multiply(){
 	console.log("Call function : multiply");
-
+	var t = document.getElementById("text").value;
 	var a =  t.split(",").map(Number);
 
 	console.log("Value of the Array : "+a); 
@@ -45,9 +48,9 @@ function multiply(t){
 	} else return "error";
 }
 
-function reverse(a){
+function reverse(){
 	console.log("Call function : reverse");
-
+	var a = document.getElementById("text").value
 	var s = "";
 	console.log("Value of the initial string : "+a); 
 	if(a.length>0){
@@ -58,9 +61,9 @@ function reverse(a){
 	} else return "";
 }
 
-function findLongestWord(s){
+function findLongestWord(){
 	console.log("Call function : findLongestWord");
-
+	var s = document.getElementById("text").value;
 	var a =  s.split(",");
 	console.log("Value of the Array : "+a);
 	if(a.length>1){
@@ -71,9 +74,10 @@ function findLongestWord(s){
 	} else return "Error";
 }
 
-function filterLongWords(s, ind){
+function filterLongWords(){
 	console.log("Call function : filterLongWords");
-
+	var s = document.getElementById("text").value;
+	var ind = document.getElementById("num1").value;
 	var a =  s.split(",");
 	console.log("Value of the Array : "+a);
 	console.log("Value of the filter Value : "+ind);
@@ -83,9 +87,10 @@ function filterLongWords(s, ind){
 	return ret;
 }
 
-function multiplyArrayBy(s,b){
+function multiplyArrayBy(){
 	console.log("Call function : multiplyArrayBy");
-
+	var s = document.getElementById("text").value;
+	var b = document.getElementById("num1").value;
 	var a =  s.split(",").map(Number);
 	console.log("Value of the Array : "+a);
 	console.log("Value of the Factor : "+b);
