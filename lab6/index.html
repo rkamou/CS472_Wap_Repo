@@ -17,38 +17,34 @@
 	<div class="item4">
 		<ol start="1"><form>
 			<li>
-				<input type="number" id="num1" name="num1"  placeholder="number Q : 5, 6"/>	
-				<i> (Number field)</i>
+				<input type="text" id="text" name="text" size="5" placeholder="Char or String, Q : 2,3,4,5,6"/><i> (Char or String field)</i>
 				<br/>
-				<input type="text" id="text" name="text" size="5" placeholder="Char or String, Q : 2,3,4,5,6"/><i> (Char or String field)</i><br><i class="attention">Q stands for question, example Q : 5, 6 means that the field is used to enter value needed for question 5 and 6</i>
+				<input type="number" id="num1" name="num1"  placeholder="number Q : 5, 6"/>	
+				<i> (Number field)</i> 
+				<br><i class="attention">Q stands for question, example Q : 5, 6 means that the field is used to enter value needed for question 5 and 6</i>
 			</li>
 			<li>
 				<a id="sumL"
-					onClick='alert("Sum : "+sum(document.getElementById("text").value));'    
 					value="">Sum of Array items</a><i> 1,2,3,4 = 10 </i><br/><br/>
-				<a 
-					onClick='alert("Multiply : "+multiply(document.getElementById("text").value));'     
+				<a id="mulL"
 					value="">multiply of Array items</a><i>1,2,3,4 = 24</i>	<br/><br/>
 					 <i> take a sequence of number with comma(,) as separator </i>
 			</li>
 			<li>
-				<a 
-					onClick='alert("Reverse : "+reverse(document.getElementById("text").value));'     
+				<a id="reverse"    
 					>Reverse a String</a> <i> computes the reversal of a String</i>
 			</li>
 			<li>
-				<a 
-					onClick='alert("Length of the longest : "+findLongestWord(document.getElementById("text").value));'    
+				<a 	id="findLongestWord" 
 					>findLongestWord of Array</a> <i> Takes an array of words and returns the length of the longest one.</i>
 			</li>
 			<li>
-				<a 
-					onClick='alert("filterLongWords : "+filterLongWords(document.getElementById("text").value,document.getElementById("num1").value));'   
-
+				<a id="filterLongWords"    
 					>filterLongWords of Array</a> <i> take a sequence of string with comma(,) as separator, and size for the filter</i>
 			</li>
 			<li>
-				<a onClick='alert("multiplyArrayBy : "+multiplyArrayBy(document.getElementById("text").value,document.getElementById("num1").value));'   
+				<a 
+				id="multiplyArrayBy"  
 					>multiply Array By Value</a> <i> take a sequence of number with comma(,) as separator, and them all by a specific value</i> 
 			</li>
 
@@ -56,9 +52,7 @@
 	</div>
 	<div class="item3"></div>
 	<div class="item6">...</div>
-	<script type="text/javascript">
-		
-	</script>
+	
 </body>
 
 </html>
