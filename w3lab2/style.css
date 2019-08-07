@@ -61,22 +61,27 @@ body {
     }
 }
 
-#circle{
+.circle{
+  height: 200px;
+  width: 200px;
   background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  display: none;
-  overflow: auto;
-  margin: auto;
-  float: inherit;
+  border-radius: 50%;  
+  overflow: auto; 
+  position: absolute;
+  top:0px;
+  right: 0px;
 }
-
+div{
+  position: relative;
+  padding: 5px;
+}
 .grid-container div {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: left; 
   font-size: 30px;
   border : 1px green solid;
   padding: 10px;
+  overflow: auto;
 }
 
 
