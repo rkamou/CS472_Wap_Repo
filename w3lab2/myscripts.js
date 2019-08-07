@@ -29,6 +29,7 @@ function animation_circle(elemt, GrA){
 		clearInterval(timer);
 		timer = null;
 		console.log("End Animation");
+		alert("End Animation");
 	}else{
 		let z = new Number(x)+ GrA;
 		$(elemt).width(z);
