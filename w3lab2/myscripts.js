@@ -25,7 +25,7 @@ function start_onclick(){
 function animation_circle(elemt, GrA){
 	let x = $(elemt).width();
 	let y = $(".item4")[0];
-	if (x>max_width-150) {
+	if (x>max_width-200) {
 		clearInterval(timer);
 		timer = null;
 		console.log("End Animation");
